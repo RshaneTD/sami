@@ -1,0 +1,190 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0
+}
+
+ul{
+    display: flex;
+    gap: 1.5rem;
+   
+    align-items: center;
+    list-style-type: none;
+}
+
+li{
+    padding: 0.5rem 2rem;
+    border-radius: 99px;
+    box-shadow:10px 10px rgba(0, 0, 0, 0.6);
+    background-color: #CE5D38;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-color: #F8B44E;
+    box-shadow: 10px;
+    border-bottom: solid;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5rem 0 5em;
+    
+}
+
+.logo{
+    width: 9%;
+}
+
+/* Home page video*/
+video{
+    width: 100%;
+    height: 100%;
+}
+
+/*menu page*/
+
+.menus{
+    padding-top: 2rem;
+    margin: 0 5rem ;
+    display: grid;
+    grid-template: 1fr/repeat(3, 1fr);
+    gap: 2rem;
+    
+}
+
+.menu-img{
+    width: 100%;
+    height: 87%;
+}
+.img-two{
+    grid-area: 1/2/3/3;
+}
+
+.text-two{
+    grid-area: 1/3;
+}
+
+/*contact us page*/
+.contact-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 5rem;
+    gap: 2rem;
+}
+
+.pic1> img{
+    width: 15rem;
+}
+
+.pic2> img{
+    width: 15rem;
+}
+
+.description{
+    margin: 0 5rem;
+}
+
+/*training page*/
+.training-presentation{
+    margin: 1rem 5rem;
+    display: flex;
+    gap: 1rem;
+}
+.training-img{
+    width: 30%;
+}
+
+.training-text> p{
+    margin-top: 0;
+}
+
+.training-button{
+    padding: 0.5rem 2rem;
+    background-color: rgba(128, 0, 128, 0.486);
+    border: none;
+    color: white;
+}
+
+.training-description{
+    margin: 2rem 5rem;
+}
+
+.apply-here{
+    background-color: #F8B44E;
+    width: 50vw;
+    height: 30vh;
+    margin: 5rem 5rem;
+}
+
+.app-text{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.app-text>p{
+    background-color: black;
+    color: white;
+    padding: 0.5rem 3rem;
+    margin: 9px;
+}
+
+.form-btn{
+ 
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
+
+.form-btn>button{
+    padding: 4px 2rem;
+    border: none;
+    background-color: rgba(128, 0, 128, 0.486);
+}
+
+/*about us page*/
+
+.content{
+    display: grid;
+    grid-template: repeat(10, 1fr)/ repeat(5, 1fr);
+    height: 90vh;
+    margin: 0 5rem;
+    margin-top: 4rem;
+    column-gap: 2rem;
+}
+
+.section1>img{
+    width: 100%;
+    height: 15rem;
+}
+
+.section1{
+    grid-area: 3/2/3/5;
+  
+}
+
+.section2>img{
+    width: 100%;
+    height:50%;
+}
+
+.section2{
+    grid-area: 5/1/7/2;
+}
+
+
+.section3>img{
+    width: 100%;
+    height:50%;
+}
+
+.section3{
+    grid-area: 5/5/6/7;
+}
